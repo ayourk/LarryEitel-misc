@@ -394,6 +394,7 @@ class HTML_QuickForm2_Renderer_Smarty extends HTML_QuickForm2_Renderer_Array
                 $this->array['errors'][$top_key] = $this->array[$elem['error']];
             }
         }
+    }
 
    /**
     * Sets the way required elements are rendered
